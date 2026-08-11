@@ -7,7 +7,7 @@ import Fail from './Fail.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/Login-page">
+  <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />} ></Route>
       <Route path='/sucess' element={<Sucess />} ></Route>
